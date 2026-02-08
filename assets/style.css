@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root {
+    --primary-color: #000958;
+    --secondary-color: #5e6085;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* Common */
+a {
+    text-decoration: none;
+}
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+.btn {
+    min-width: 117px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    background: #ff5b2e;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    margin-top: 26px;
+    position: sticky;
+    top: 5px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__nav {
+    margin-left: 229px;
+}
+.header__nav ul {
+    display: flex;
+    gap: 16px;
+}
+.header__item {
+    padding: 8px 10px;
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+}
+.header__item:hover {
+    color: var(--primary-color);
+}
+
+.header__item.header__item--active {
+    color: var(--primary-color);
+}
+.header__btn {
+    margin-left: auto;
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    border: 1px solid var(--secondary-color);
+    background: #fff;
+}
+.header__btn:hover {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
