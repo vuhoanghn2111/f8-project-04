@@ -8,6 +8,7 @@ html {
 :root {
     --primary-color: #000958;
     --secondary-color: #5e6085;
+    --hover-color: #ff5b2e;
 }
 body {
     font-size: 1.6rem;
@@ -39,9 +40,13 @@ button {
 }
 /* Header */
 header {
-    margin-top: 26px;
+    padding-top: 26px;
+    background: #fff;
+}
+header.sticky {
     position: sticky;
-    top: 5px;
+    top: -20px;
+    z-index: 1;
 }
 header .container {
     display: flex;
@@ -86,4 +91,103 @@ header .container {
 .header__btn:hover {
     color: var(--primary-color);
     border-color: var(--primary-color);
+}
+/* Hero */
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    background: #fff;
+}
+/* Hero media */
+.hero__media {
+    width: calc(609 / 1170 * 100%);
+}
+.hero__img {
+    border-radius: 16px;
+    object-fit: cover;
+}
+.hero__cat {
+    width: 388px;
+    height: 488px;
+}
+.hero__dog {
+    
+}
+
+/* Hero content */
+.hero__content {
+    width: calc(517 / 1170 * 100%);
+    margin-right: -19px;
+}
+.hero__heading {
+    width: 517px;
+    color: var(--primary-color);
+    font-family: Sora;
+    font-size: 6.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 76px; /* 115.152% */
+}
+.hero__desc {
+    margin-top: 24px;
+    width: 391px;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+.hero__action {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.hero__btn {
+    border: none;
+    outline: none;
+    padding: 0;
+    min-width: 189px;
+    line-height: 60px;
+    height: 60px;
+    border-radius: 31px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 550;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--primary-color);
+}
+.hero__right {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero__right .hero__right--color {
+    stroke: #000958;
+}
+.hero__btn:hover {
+    background: var(--hover-color);
+}
+.hero__btn:hover .hero__right--color {
+    stroke: #fd5056;
+}
+.hero__call {
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.hero__call:hover {
+    text-decoration: underline;
 }
