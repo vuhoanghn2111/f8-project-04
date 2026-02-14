@@ -38,10 +38,15 @@ button {
     width: 1170px;
     margin: 0 auto;
 }
+button {
+    border: none;
+    outline: none;
+    padding: 0;
+}
 /* Header */
 header {
     padding-top: 26px;
-    background: #fff;
+    background: #fff8f2;
 }
 header.sticky {
     position: sticky;
@@ -93,26 +98,57 @@ header .container {
     border-color: var(--primary-color);
 }
 /* Hero */
+.hero {
+    background: #fff8f2;
+    padding-top: 100px;
+}
 .hero .container {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
-    background: #fff;
 }
 /* Hero media */
 .hero__media {
-    width: calc(609 / 1170 * 100%);
+    width: calc(551 / 1170 * 100%);
+    height: 546px;
+    position: relative;
+}
+.hero__image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .hero__img {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 16px;
-    object-fit: cover;
 }
-.hero__cat {
+.hero__cat--img {
     width: 388px;
     height: 488px;
+    border-radius: 16px;
+    background: #fe997b;
+    border: 3px solid #fff;
+    top: 0;
+    left: 0;
 }
-.hero__dog {
-    
+.hero__dog--img {
+    width: 186px;
+    height: 244px;
+    border-radius: 16px;
+    background: #faa7ad;
+    border: 3px solid #fad9db;
+    right: 0;
+    bottom: 0;
+}
+/* Deco */
+.hero__deco {
+    position: absolute;
+    z-index: -1;
+}
+.deco__left {
+    left: -58px;
+    bottom: 10px;
 }
 
 /* Hero content */
@@ -145,9 +181,6 @@ header .container {
     gap: 24px;
 }
 .hero__btn {
-    border: none;
-    outline: none;
-    padding: 0;
     min-width: 189px;
     line-height: 60px;
     height: 60px;
