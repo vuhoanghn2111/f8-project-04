@@ -93,7 +93,6 @@
     align-self: flex-end;
     margin-left: -23px;
     transform: translateY(58px);
-    z-index: 1;
 }
 .hero__service {
     width: 250px;
@@ -101,7 +100,7 @@
     border-radius: 10px;
     background: #fff;
     box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     right: 0;
     top: 426px;
