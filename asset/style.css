@@ -8,7 +8,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.header__list li {
+.header__list li,
+.action__btn--in {
     display: inline-block;
     padding: 10px 5px;
     color: #5e6085;
@@ -17,19 +18,203 @@
     font-weight: 500;
     line-height: 14px; /* 100% */
 }
-.header__list li:hover .header__item {
+.header__list li:hover .header__item,
+.action__btn--in:hover {
     color: #000958;
     text-shadow: 1px 0 currentColor;
 }
 .header__list li:not(:first-child) {
     margin-left: 26px;
 }
+.header__action {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 .action__btn {
     border-radius: 25px;
-    border: 1px solid #000958;
-    opacity: 0.7;
-    color: #000958;
+    border: 1px solid rgb(0, 9, 88, 0.7);
+    color: #040a42;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
+}
+.action__btn:hover {
+    opacity: 0.8;
+}
+/* Hero */
+.hero {
+    margin-top: 74px;
+}
+.hero__media {
+    display: flex;
+}
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.hero__img-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 388px;
+    height: 488px;
+    border-radius: 16px;
+    background: #fe997b;
+    border: 3px solid white;
+    position: relative;
+}
+.hero__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.hero__deco {
+    position: absolute;
+    z-index: -1;
+}
+.deco__left {
+    left: -58px;
+    bottom: 10px;
+}
+.deco__right {
+    top: 16px;
+    left: 377px;
+}
+.hero__img-dog {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 186px;
+    height: 244px;
+    border-radius: 16px;
+    background: #faa7ad;
+    border: 3px solid #fde0e2;
+    align-self: flex-end;
+    margin-left: -23px;
+    transform: translateY(58px);
+    z-index: 1;
+}
+.hero__service {
+    width: 250px;
+    height: 156px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    top: 426px;
+}
+.hero__service--inner {
+    padding: 18px 14px;
+}
+
+.pet__service {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.pet__service-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.pet__heal-img {
+    background: #fec23f;
+}
+.pet__care-img {
+    background: #b9d8f3;
+}
+.pet__img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.pet__text {
+    color: #181e52;
+    font-family: Sora;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 14px; /* 100% */
+}
+.line {
+    border-radius: 10px;
+    opacity: 0.08;
+    background: #000958;
+}
+.line-1 {
+    margin-top: 7px;
+    width: 118px;
+    height: 4px;
+}
+.line-2 {
+    margin-top: 6px;
+    width: 39px;
+    height: 4px;
+}
+.separate {
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    margin: 20px 0;
+}
+/* Content */
+.hero__heading {
+    width: 517px;
+    color: #000958;
+    font-size: 6.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 76px; /* 115.152% */
+}
+.hero__desc {
+    margin-top: 24px;
+    width: 391px;
+    color: #656689;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+.hero__action {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.hero__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 189px;
+    height: 60px;
+    line-height: 60px;
+    background: #ff5b2e;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    color: #fff;
+    font-weight: 600;
+}
+.hero__btn:hover {
+    opacity: 0.8;
+}
+.hero__btn--right {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fffaf5;
+}
+.hero__call {
+    color: #000958;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: underline;
 }

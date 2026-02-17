@@ -7,6 +7,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    background: #FFFAF5;
 }
 h1,
 h2,
@@ -42,8 +43,7 @@ button {
     min-width: 117px;
     height: 50px;
     border-radius: 31px;
-    border: 1px solid #ff5b2e;
-    opacity: 0.6;
+    border: 1px solid rgb(255, 91, 46, 0.6);
     color: #ff5b2e;
     text-align: center;
     font-size: 1.6rem;
