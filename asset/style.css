@@ -242,9 +242,10 @@
 }
 .about__content--list {
     margin-top: 57px;
+    margin-left: 34px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     gap: 34px 70px;
 }
 .about__content--item {
@@ -257,6 +258,9 @@
     position: relative;
     display: flex;
     align-items: center;
+}
+.about__content--item {
+    white-space: nowrap;
 }
 .about__content--item:hover::before {
     box-shadow: 0 4px 15px -3px rgba(255, 93, 49, 0.69);
