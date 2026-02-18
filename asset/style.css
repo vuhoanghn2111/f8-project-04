@@ -218,7 +218,8 @@
 }
 /* ==================About================== */
 .about {
-    margin-top: 77px;
+    padding-top: 77px;
+    padding-bottom: 53px;
 }
 .about__inner {
     display: flex;
@@ -288,6 +289,9 @@
     height: 559px;
     border-radius: 16px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .about__bg::after {
     content: "";
@@ -351,4 +355,119 @@
     position: absolute;
     top: -39px;
     right: -31px;
+}
+/* =====================Feature======================= */
+/* Media */
+.feature {
+    padding-top: 77px;
+    padding-bottom: 60px;
+}
+.feature__inner {
+    display: flex;
+    align-items: center;
+}
+.feature__image {
+    width: 458px;
+    height: 500px;
+    border-radius: 18px;
+    border: 2px solid white;
+    background: linear-gradient(180deg, #c2dff8 0%, #90bce0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+.feature__img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.feature__deco {
+    position: absolute;
+}
+.deco__1 {
+    top: 12px;
+    right: 63px;
+}
+.deco__2 {
+    right: 13px;
+    top: -16px;
+}
+.deco__3 {
+    top: 33px;
+    right: -21px;
+}
+.deco__4 {
+    top: 268px;
+    right: -33px;
+}
+.deco__5 {
+    right: 19px;
+    bottom: 150px;
+}
+.deco__6 {
+    top: 435px;
+    left: 377px;
+}
+/* Content */
+.feature__content {
+    margin-left: 127px;
+}
+.feature__heading {
+    width: 543px;
+}
+.feature__desc {
+    margin-top: 24px;
+    width: 511px;
+}
+.feature__list {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 56px;
+}
+.feature__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.feature__item::after {
+    content: "";
+    display: inline-block;
+    width: 95px;
+    height: 2px;
+    background: #ff5b2e;
+    position: absolute;
+    left: 6px;
+    bottom: 0;
+    display: none;
+}
+.feature__item:hover::after {
+    display: inline-block;
+}
+.feature__item:nth-child(2) .feature__icon {
+    transform: translateY(5px);
+}
+.feature__item--name {
+    color: #48496a;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 100% */
+    white-space: nowrap;
+}
+.section__desc--14-24 {
+    margin-top: 36px;
+    width: 391px;
+}
+.feature__action {
+    display: inline-block;
+    margin-top: 32px;
+    color: #ff5d31;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    text-decoration: underline;
 }

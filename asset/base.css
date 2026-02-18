@@ -69,3 +69,20 @@ button {
     font-weight: 400;
     line-height: 30px; /* 187.5% */
 }
+.section__desc--14-24 {
+    color: #656689;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.section__desc--14-14 {
+    color: #656689;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+}
