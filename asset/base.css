@@ -4,10 +4,13 @@
 html {
     font-size: 62.5%;
 }
+:root {
+    --hero__service--bottom: 94px;
+}
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    background: #FFFAF5;
+    background: #fffaf5;
 }
 h1,
 h2,
@@ -50,4 +53,19 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 50px; /* 100% */
+}
+.section__heading--h2 {
+    color: #000958;
+    font-size: 5.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px; /* 119.231% */
+}
+.section__desc--16 {
+    color: #656689;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
 }
