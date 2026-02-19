@@ -54,12 +54,23 @@ button {
     font-weight: 500;
     line-height: 50px; /* 100% */
 }
+.btn:hover {
+    opacity: 0.8;
+}
 .section__heading--h2 {
     color: #000958;
     font-size: 5.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 62px; /* 119.231% */
+}
+.section__heading--h3 {
+    color: #000958;
+    font-family: Sora;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 100% */
 }
 .section__desc--16 {
     color: #656689;
