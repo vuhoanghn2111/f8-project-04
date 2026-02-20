@@ -72,13 +72,22 @@ button {
     font-weight: 600;
     line-height: 22px; /* 100% */
 }
-.section__desc--16 {
+.section__desc--16-30 {
     color: #656689;
     font-family: Poppins;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
+}
+.section__desc--16-16 {
+    color: #5e6085;
+    text-align: center;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
 }
 .section__desc--14-24 {
     color: #656689;
