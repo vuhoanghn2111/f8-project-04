@@ -26,6 +26,13 @@
     color: #000958;
     text-shadow: 1px 0 currentColor;
 }
+.header__item {
+    color: #5e6085;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px; /* 100% */
+}
 .header__list li:not(:first-child) {
     margin-left: 26px;
 }
@@ -671,5 +678,33 @@
     margin-left: 50%;
     transform: translateX(-50%);
 }
-.team__all--btn:hover {
+/* ====================Pricing===================== */
+.pricing {
+    padding: 86px 0;
+    background: #fff6ed;
+}
+.pricing__heading {
+    text-align: center;
+}
+.pricing__desc {
+    margin-top: 24px;
+    width: 709px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pricing__switch-wrap {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+}
+.pricing__label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 276px;
+    height: 56px;
+    border-radius: 31px;
+    border: 1px solid rgb(255, 91, 46, 0.6);
 }
