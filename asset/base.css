@@ -56,6 +56,8 @@ button {
 }
 .btn:hover {
     opacity: 0.8;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+
 }
 .section__heading--h2 {
     color: #000958;
