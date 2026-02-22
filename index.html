@@ -682,23 +682,31 @@
                         </p>
                     </section>
                     <div class="pricing__switch-wrap">
-                        <div class="pricing__switch">
-                            <input
-                                type="checkbox"
-                                name=""
-                                id="pricing-switch"
-                                class="pricing__switch-input"
-                            />
-                            <label for="" class="pricing__label">
-                                <span class="pricing__switch-value">
-                                    Monthly
-                                </span>
-                                <span class="pricing__switch-value">
-                                    Yearly
-                                </span>
-                            </label>
+                        <div class="pricing__switch-inner">
+                            <!-- Switch -->
+                            <div class="pricing__switch">
+                                <input
+                                    type="checkbox"
+                                    name=""
+                                    id="pricing-switch"
+                                    class="pricing__switch-input"
+                                    hidden
+                                    checked
+                                />
+                                <label for="pricing-switch" class="pricing__switch-label">
+                                    <span class="pricing__switch-value">
+                                        Monthly
+                                    </span>
+                                    <span class="pricing__switch-value">
+                                        Yearly
+                                    </span>
+                                </label>
+                            </div>
+                            <!-- Sale off -->
+                             <img src="./asset/img/pricing/save.svg" alt="Sale" class="pricing__sale-off">
                         </div>
                     </div>
+                    
                 </div>
             </section>
         </main>
