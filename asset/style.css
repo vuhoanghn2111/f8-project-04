@@ -812,6 +812,7 @@
 /* Testimonial */
 .testimonial {
     padding-top: 53px;
+    padding-bottom: 65px;
 }
 .testimonial__inner {
     display: flex;
@@ -847,7 +848,8 @@
     max-height: 100%;
     border-radius: inherit;
 }
-.arrow-left,.arrow-right {
+.arrow-left,
+.arrow-right {
     width: 54px;
     height: 54px;
     border-radius: 50%;
@@ -894,7 +896,7 @@
     background: #000;
     left: -28px;
 }
-.tes__arrow:hover  {
+.tes__arrow:hover {
     background: #ff5b2e;
 }
 .tes__arrow:hover svg path {
@@ -904,4 +906,25 @@
 .test__dot {
     margin-top: 56px;
     text-align: center;
+}
+/* ====================Blog===================== */
+.blog {
+    padding-top: 65px;
+}
+.blog-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog__row {
+    margin-right: 73px;
+}
+.blog__desc {
+    width: 350px;
+}
+.blog__btn {
+    min-width: 182px;
+    height: 56px;
+    line-height: 56px;
+    margin-top: 24px;
 }
