@@ -751,3 +751,61 @@
     right: -112px;
     top: -10px;
 }
+.pricing__list {
+    width: 994px;
+    margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 44px;
+}
+.pricing-item {
+    width: 302px;
+    height: 465px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 30px 28px;
+}
+.pricing-item__type {
+    color: #ff5b2e;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+}
+.pricing-item__heading {
+    margin-top: 8px;
+    color: #3f4065;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 100% */
+}
+.pricing-item__price {
+    margin-top: 24px;
+    color: #000958;
+    font-family: "Sora";
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 103.03% */
+}
+.pricing-item__btn {
+    margin-top: 22px;
+    min-width: 246px;
+    height: 44px;
+    line-height: 44px;
+}
+.pricing-item__list {
+    margin-top: 24px;
+}
+.pricing-item__item {
+    margin-top: 18px;
+    text-align: left;
+    display: flex;
+}
+.pricing-item__item::before {
+    content: url(../asset/img/pricing/Check.svg);
+    margin-right: 14px;
+}

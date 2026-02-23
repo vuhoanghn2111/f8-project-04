@@ -6,6 +6,7 @@ html {
 }
 :root {
     --hero__service--bottom: 94px;
+    --primary-color: #ff5b2e;
 }
 body {
     font-size: 1.6rem;
@@ -57,7 +58,11 @@ button {
 .btn:hover {
     opacity: 0.8;
     box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
-
+}
+.btn__primary {
+    color: white !important;
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
 .section__heading--h2 {
     color: #000958;
