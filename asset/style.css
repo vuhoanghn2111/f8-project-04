@@ -943,11 +943,11 @@
     background: #90ccff;
     position: relative;
 }
-article:nth-child(2) .blog__image {
-    background: #FF997E;
+.blog__team:nth-child(2) .blog__image {
+    background: #ff997e;
 }
-article:nth-child(3) .blog__image {
-    background: #5BD6E2;
+.blog__team:nth-child(3) .blog__image {
+    background: #5bd6e2;
 }
 .blog__img {
     position: absolute;
@@ -978,4 +978,105 @@ article:nth-child(3) .blog__image {
 }
 .blog-content__desc {
     margin-top: 16px;
+}
+/* ====================Footer==================== */
+.footer {
+    margin-top: 131px;
+    background: linear-gradient(to right, #fff6ed 41%, transparent 41%);
+    padding-top: 52px;
+    padding-bottom: 48px;
+}
+.footer__inner {
+    display: flex;
+    align-items: center;
+}
+.footer-left {
+    width: 41%;
+}
+.sub-form {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    width: 268px;
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    background: #fff;
+    margin-bottom: 68px;
+}
+.sub-form__input {
+    border: none;
+    outline: none;
+    border-radius: inherit;
+    padding: 0 22px;
+    width: 100%;
+    height: 100%;
+    font-size: 1.4rem;
+}
+.sub-form__input::placeholder {
+    color: #656689;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px; /* 116.667% */
+}
+.sub-form__submit {
+    flex-shrink: 0;
+    margin-right: -1px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff5b2e;
+    box-shadow: 0 15px 28px -7px rgba(255, 91, 46, 0.3);
+}
+.sub-form__submit:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.footer__heading {
+    font-size: 1.8rem;
+}
+.social-list {
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+}
+.social-item {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-item:hover {
+    opacity: 0.8;
+}
+.footer__row {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 58px 137px;
+    margin-left: 129px;
+}
+.footer__list {
+    margin-top: 14px;
+}
+.footer__link {
+    margin-top: 11px;
+    color: #656689;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+}
+.footer__copyright {
+    margin-top: 52px;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 22px;
+    opacity: 0.5;
 }
