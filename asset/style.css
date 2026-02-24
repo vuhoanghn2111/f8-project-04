@@ -943,10 +943,10 @@
     background: #90ccff;
     position: relative;
 }
-.blog__team:nth-child(2) .blog__image {
+.blog-item:nth-child(2) .blog__image {
     background: #ff997e;
 }
-.blog__team:nth-child(3) .blog__image {
+.blog-item:nth-child(3) .blog__image {
     background: #5bd6e2;
 }
 .blog__img {
